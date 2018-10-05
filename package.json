@@ -1,7 +1,7 @@
 {
   "name": "css-theme",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create different themes for apply in the main.scss",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
