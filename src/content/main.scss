@@ -1,0 +1,49 @@
+@import 'theme1';
+// @import 'theme2';
+
+.container {
+  margin: $margin;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  font-family: $otherFont;
+  width: 15em;
+  height: 10em;
+  border: 1px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: $borderRadius;
+  padding-left: $padding;
+  padding-top: $padding;
+}
+
+.principalFont {
+  font-family: $principalFont;
+  margin-top: $margin;
+}
+
+.secondaryFont {
+  font-family: $secondaryFont;
+  margin-top: $margin;
+  margin-bottom: $margin;
+}
+
+.base {
+  background-color: $baseColor;
+}
+
+.important {
+  background-color: $importanColor;
+}
+
+.warning {
+  background-color: $warningColor;
+}
+
+.shadow {
+  -webkit-box-shadow: $shadowBox;
+  -moz-box-shadow: $shadowBox;
+  box-shadow: $shadowBox;
+}
